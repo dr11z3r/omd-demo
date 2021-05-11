@@ -1,21 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <div><b>dr11z3r/open-market-data</b></div>
-      </div>
-
-      <v-spacer></v-spacer>
-
-    </v-app-bar>
-
-    <v-main>
-      <router-view/>
-    </v-main>
+    <router-view/>
   </v-app>
 </template>
 
