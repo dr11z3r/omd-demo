@@ -8,7 +8,6 @@
 <script lang="ts">
 import { Component, Vue, Prop, Watch } from "vue-property-decorator";
 import VueRoller from 'vue-roller';
-import formatCurrency from '../helpers/formatCurrency';
 
 @Component({
   components: { VueRoller }
